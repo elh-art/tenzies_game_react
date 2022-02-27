@@ -1,13 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background-color: #0b2434;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #f5f5f5;
+  height: 400px;
+  max-width: 750px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  margin: 5px;
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  margin-top: 0;
+  text-align: center;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.die-face {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.die-face .dot {
+  position: absolute;
+  background: #000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translate(-8px, -8px);
+}
+
+.die-num {
+  font-size: 3rem;
+  color: green;
+  opacity: 0.2;
+}
+
+.odd-1 {
+  top: 50%;
+  left: 50%;
+}
+
+.even-1,
+.odd-2 {
+  top: 25%;
+  left: 25%;
+}
+
+.even-2,
+.odd-3 {
+  top: 75%;
+  left: 75%;
+}
+
+.even-3,
+.odd-4 {
+  top: 75%;
+  left: 25%;
+}
+
+.even-4,
+.odd-5 {
+  top: 25%;
+  left: 75%;
+}
+
+.even-5 {
+  top: 50%;
+  left: 75%;
+}
+
+.even-6 {
+  top: 50%;
+  left: 25%;
+}
+
+.roll-dice {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035ff;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Karla', sans-serif;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.roll-dice:focus {
+  outline: none;
+}
+
+.roll-dice:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
