@@ -17,6 +17,7 @@ export default function App() {
       setTenzies(true)
       stopTimeCount()
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dice])
 
   function generateNewDie() {
