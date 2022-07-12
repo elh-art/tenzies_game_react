@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/48730665/178347562-ede9418b-7279-47bd-98d8-b19a510051fe.png)
 
+Try to be the fastest person to get all ten of your dice to the same number.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
