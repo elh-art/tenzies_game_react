@@ -1,6 +1,11 @@
+# Try to be the fastest person to get all ten of your dice to the same number.
+
 ![image](https://user-images.githubusercontent.com/48730665/178347562-ede9418b-7279-47bd-98d8-b19a510051fe.png)
 
-Try to be the fastest person to get all ten of your dice to the same number.
+In action:
+
+![tenzies](https://user-images.githubusercontent.com/48730665/179969031-7bced596-a535-4e2a-8da2-79273922c542.gif)
+
 
 # Getting Started with Create React App
 
