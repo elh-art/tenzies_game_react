@@ -1,4 +1,5 @@
-# Try to be the fastest person to get all ten of your dice to the same number. (Just practicing React...)
+# Try to be the fastest person to get all ten of your dice to the same number. 
+(Just practicing React...)
 
 ![image](https://user-images.githubusercontent.com/48730665/178347562-ede9418b-7279-47bd-98d8-b19a510051fe.png)
 
